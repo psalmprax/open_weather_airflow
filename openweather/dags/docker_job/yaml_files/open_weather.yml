@@ -1,0 +1,55 @@
+open_weather:
+    extract_strategy: batch
+    schedule: "0/1 * * * 1-5"
+    api_key: c953a074bc2b83ba6bfc61bc6ec2941f
+    table_name:
+      Newtownabbey:
+        long:
+          - -5.9249199
+        lat:
+          - 54.6778816
+      Leicester:
+        long:
+          - -1.1331969
+        lat:
+          - 52.6362
+      Reading:
+        long:
+          - -0.9696512
+        lat:
+          - 51.456659
+      Newry:
+        long:
+          - -6.337506
+        lat:
+          - 54.1775283
+      Purfleet-on-Thames:
+        long:
+          - 0.2433
+        lat:
+          - 51.4867
+      Liverpool:
+        long:
+          - -2.99168
+        lat:
+          - 53.4071991
+      Worksop:
+        long:
+          - -1.1028469453936067
+        lat:
+          - 53.3045372
+      Livingston:
+        long:
+          - -3.5181
+        lat:
+          - 55.9007
+      Doncaster:
+        long:
+          - -1.1335312
+        lat:
+          - 53.5227681
+      Burton-on-Trent:
+        long:
+          - -1.629917
+        lat:
+          - 52.802742
