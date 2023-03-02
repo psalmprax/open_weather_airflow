@@ -1,0 +1,9 @@
+{
+        "AccountName" : "openweatherproject",
+        "Container" : "open-weather-container",
+        "Key_Vault_Url" : "https://openweatherproject.vault.azure.net/",
+        "Secrets" : {
+                "open-weather-api-key": "open-weather-api-key",
+                "AccountKey": "AccountKey"
+        }
+}
