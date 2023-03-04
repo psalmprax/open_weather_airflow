@@ -119,7 +119,7 @@ def get_weather_data(**kwargs):
 				      f'{lat_lon[0]}&lon={lat_lon[1]}&appid=' \
 				      f'{api_key}&units=metric'
 				dfs.append(pd.json_normalize(requests.get(url).json()))
-			time.sleep(1)
+				time.sleep(1)
 			df = pd.concat(dfs, ignore_index=True)
 			path_location = path_loc(root_dir, dirr)
 			df.to_parquet(path_location["filename"])
