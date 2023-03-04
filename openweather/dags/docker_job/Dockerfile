@@ -24,11 +24,4 @@ USER airflow
 COPY requirements.txt requirements.txt
 RUN pip install --upgrade pip \
  && pip install -r requirements.txt
-#  && pip install 'apache-airflow[amazon]' \
-#  && pip install 'apache-airflow-providers-amazon' \
-#  && pip install 'apache-airflow-providers-microsoft-azure'
 CMD ["echo", "hello world"]
-
-
-# RUN apt install expect -y
-# RUN apt install tor -y
